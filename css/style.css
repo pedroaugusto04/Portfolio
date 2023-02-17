@@ -44,7 +44,7 @@ body {
 
 .description {
     display: flex;
-    height: 500px;
+    height: 1225px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -54,17 +54,38 @@ body {
 
 .description h1 {
     color: #e2e2e2;
-    font-size: 70px;
+    font-size: 80px;
     font-family: 'Quicksand', sans-serif;
 }
 
-.description h4 {
+.description h2 {
     color: #e2e2e2;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
 
-.projects {
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+
+.icons img {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    z-index: 999;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.projects, .contact {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -72,7 +93,12 @@ body {
     background-color: #e2e2e2;
 }
 
-.projects .title {
+.contact {
+    height: 600px;
+}
+
+
+.projects .title, .contact .title{
     width: 100%;
     height: 150px;
     display: flex;
@@ -81,7 +107,7 @@ body {
     background-color: #e2e2e2;
 }
 
-.projects h1 {
+.projects h2, .contact h2 {
     display: block;
     font-family: 'Quicksand', sans-serif;
     color: black;
@@ -108,17 +134,16 @@ body {
     box-shadow: 5px 5px 15px rgb(0,0,94);
     background-image: url("img/image3.jpg");
     background-size: cover;
-
+    text-decoration: none;
 }
 
-.card h2 {
+.card h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
 }
 
-.card h4 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+.card p {
+    display: none;
 }
 
 .card:hover{
@@ -126,8 +151,86 @@ body {
     transition: all 0.4s;
 }
 
+.card:hover p {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.section-aboutme {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(img/image.jpg);
+    background-size:cover;
+}
+
+.section-aboutme .title {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-aboutme .title h2 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.text-aboutme {
+    height: 50%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.contact .title h2 {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 60px;
+}
+
+.contact p {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
 footer {
     display: flex;
-    height: 65px;
-    background-color: white;
+    height: 100%;
+    background-image: url("img/image3.jpg");
+    background-size: cover;
+}
+
+.madeby {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.credits {
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: inline-block;
+}
+
+.credits a {
+    color: white;
 }
