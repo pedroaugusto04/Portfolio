@@ -1,0 +1,100 @@
+@media (max-width: 1620px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .projects {
+        height: auto;
+    }
+}
+
+
+@media(max-width: 900px){
+
+    .description h1 {
+        font-size: 50px;
+    }
+
+    .description h2 {
+        font-size: 33px;
+    }
+
+    .icons {
+        align-items: flex-end;
+    }
+
+    .icons img {
+        height: 45px;
+        width: 45px;
+    }
+
+
+    .menu {
+        display: none;
+    }
+
+    .contact p {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card:hover p {
+        display: none;
+    }
+
+
+    .aboutme .text {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 720px){
+
+    .description h1{
+        text-align: center;
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 380px){
+
+    .description h1{
+        font-size: 35px;
+    }
+
+    .description h2 {   
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .icons {
+        align-items: flex-end;
+    }
+
+    .icons img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .card h3 {
+        font-size: 32px;
+    }
+
+    .aboutme .text {
+        font-size: 30px;
+    }
+}

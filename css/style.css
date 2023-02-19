@@ -8,6 +8,7 @@
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 .menu {
@@ -22,7 +23,7 @@ body {
     color: black;
     display: inline-block;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bold;
@@ -44,7 +45,8 @@ body {
 
 .description {
     display: flex;
-    height: 1225px;
+    width: 100%;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -54,13 +56,13 @@ body {
 
 .description h1 {
     color: #e2e2e2;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .description h2 {
     color: #e2e2e2;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -89,12 +91,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 800px;
     background-color: #e2e2e2;
+    height: 800px;
 }
 
 .contact {
-    height: 600px;
+    height: auto;
 }
 
 
@@ -114,7 +116,7 @@ body {
     font-size: 60px;
 }
 
-.cards-projects {
+.cards {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -130,7 +132,7 @@ body {
     color: white;
     margin-top: 50px;
     height: 400px;
-    width: 20%;
+    width: 450px;
     box-shadow: 5px 5px 15px rgb(0,0,94);
     background-image: url("img/image3.jpg");
     background-size: cover;
@@ -139,7 +141,7 @@ body {
 
 .card h3 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .card p {
@@ -154,22 +156,22 @@ body {
 .card:hover p {
     display: block;
     font-family: 'Quicksand', sans-serif;
-    font-size: 27px;
+    font-size: 28.8px;
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
 }
 
-.section-aboutme {
+.aboutme {
     display: flex;
-    height: 600px;
+    height: auto;
     justify-content: center;
     flex-direction: column;
     background-image: url(img/image.jpg);
     background-size:cover;
 }
 
-.section-aboutme .title {
+.aboutme .title {
     width: 100%;
     height: 40%;
     display: flex;
@@ -177,14 +179,14 @@ body {
     flex-direction: column;
 }
 
-.section-aboutme .title h2 {
+.aboutme .title h2 {
     display: block;
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 60px;
 }
 
-.text-aboutme {
+.aboutme .text {
     height: 50%;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
@@ -216,11 +218,14 @@ footer {
     display: flex;
     justify-content: right;
     align-items: center;
-    font-size: 25px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-weight: bold;
     padding-right: 20px;
+}
+
+footer .madeby {
+    font-size: 15px;
 }
 
 .credits {
