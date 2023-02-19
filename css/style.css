@@ -18,6 +18,7 @@ body {
     position: fixed;
     height: 65px;
     background-color: #e2e2e2;
+    z-index: 2;
 }
 
 .menu a {
@@ -51,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(img/image.jpg);
+    background-image: url(img/background1.jpg);
     background-size:cover;
 }
 
@@ -80,7 +81,6 @@ body {
     margin: 10px;
     height: 70px;
     width: 70px;
-    filter: brightness(200%);
 }
 
 .icons img:hover {
@@ -135,7 +135,7 @@ body {
     height: 400px;
     width: 450px;
     box-shadow: 5px 5px 15px rgb(0,0,94);
-    background-image: url("img/image3.jpg");
+    background-image: url("img/cardbackground.jpg");
     background-size: cover;
     text-decoration: none;
 }
@@ -168,7 +168,7 @@ body {
     height: auto;
     justify-content: center;
     flex-direction: column;
-    background-image: url(img/image.jpg);
+    background-image: url(img/background1.jpg);
     background-size:cover;
 }
 
@@ -210,7 +210,7 @@ body {
 footer {
     display: flex;
     height: 100%;
-    background-image: url("img/image3.jpg");
+    background-image: url("img/background1.jpg");
     background-size: cover;
 }
 
