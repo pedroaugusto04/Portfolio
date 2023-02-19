@@ -6,79 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css"/>
+    <script src = "js/script.js" defer></script>
     <title>Pedro Augusto</title>
 </head>
 <body>
-    <nav>
-        <div class = "menu">
-            <ul>
-                <a href = "#section-description"> Home </a> 
-                <a href = "#section-projects"> Projetos </a> 
-                <a href = "#section-aboutme"> Sobre mim</a> 
-                <a href = "#section-contact"> Contato </a> 
-            </ul>
+    <div id = "load" style="display: block">
+        <div id = "loader-container">
+            <div id = "loader">
+                <div id = "load-icon"></div>
+                <h1>Loading...</h1>
+            </div>      
         </div>
-    </nav>
-    <main>
-        <section id = "section-description" class = "description">
-            <h1> Pedro Augusto Almeida Duarte</h1>
-            <h2> Estudante de engenharia de computação</h2>
-            <div class = "icons">
-                <a id = "github" href = "https://github.com/pedroaugusto04"> <img src = "css/img/git.png" alt = "Github"> </a>
-                <a id = "whatsapp" href = "https://api.whatsapp.com/send?phone=553192504889"> <img src = "css/img/whats.png" alt = "WhatsApp"> </a>    
+    </div>
+    <div id = "content" style="display: none">
+        <nav>
+            <div class = "menu">
+                <ul>
+                    <a href = "#section-description"> Home </a> 
+                    <a href = "#section-projects"> Projetos </a> 
+                    <a href = "#section-aboutme"> Sobre mim</a> 
+                    <a href = "#section-contact"> Contato </a> 
+                </ul>
             </div>
-        </section>
-        <section id = "section-projects" class = "projects">
+        </nav>
+        <main>
+            <section id = "section-description" class = "description">
+                <h1> Pedro Augusto Almeida Duarte</h1>
+                <h2> Estudante de engenharia de computação</h2>
+                <div class = "icons">
+                    <a id = "github" href = "https://github.com/pedroaugusto04"> <img src = "css/img/git.png" alt = "Github"> </a>
+                    <a id = "whatsapp" href = "https://api.whatsapp.com/send?phone=553192504889"> <img src = "css/img/whats.png" alt = "WhatsApp"> </a>    
+                </div>
+            </section>
+            <section id = "section-projects" class = "projects">
+                <div class = "title">
+                    <h2>Projetos</h2>
+                </div>
+                <div class = "cards">
+                    <a href = "https://github.com/pedroaugusto04/API-Spring-BackEnd" class = "card">
+                        <h3>WirecardAPI</h3>
+                        <p> API realizada com base no desafio Wirecard </p>
+                        <img src = "css/img/redirection.png">
+                    </a>
+                    <a href = "https://github.com/pedroaugusto04/ClickBusAPI" class = "card">
+                        <h3> ClickBusAPI</h3>
+                        <p> API realizada com base no desafio ClickBus </p>
+                        <img src = "css/img/redirection.png">
+                    </a>
+                    <a href = "https://github.com/pedroaugusto04/OOP-Project" class = "card">
+                        <h3> OOP</h3>
+                        <p> Projeto feito para ampliar os conhecimentos de orientação à objetos utilizando Java </p>
+                        <img src = "css/img/redirection.png">
+                    </a>
+                </div>    
+            </section>
+        </main>
+        <section id = "section-aboutme" class = "aboutme">
             <div class = "title">
-                <h2>Projetos</h2>
+                <h2>Sobre mim </h2>    
             </div>
-            <div class = "cards">
-                <a href = "https://github.com/pedroaugusto04/API-Spring-BackEnd" class = "card">
-                    <h3>WirecardAPI</h3>
-                    <p> API realizada com base no desafio Wirecard </p>
-                    <img src = "css/img/redirection.png">
-                </a>
-                <a href = "https://github.com/pedroaugusto04/ClickBusAPI" class = "card">
-                    <h3> ClickBusAPI</h3>
-                    <p> API realizada com base no desafio ClickBus </p>
-                    <img src = "css/img/redirection.png">
-                </a>
-                <a href = "https://github.com/pedroaugusto04/OOP-Project" class = "card">
-                    <h3> OOP</h3>
-                    <p> Projeto feito para ampliar os conhecimentos de orientação à objetos utilizando Java </p>
-                    <img src = "css/img/redirection.png">
-                </a>
+            <div class = "text">
+                <p>Atualmente estou cursando o 3º período do curso de engenharia de computação no CEFET-MG. Tenho interesse, principalmente, nas áreas de desenvolvimento web e desenvolvimento mobile.</p>
             </div>    
         </section>
-    </main>
-    <section id = "section-aboutme" class = "aboutme">
-        <div class = "title">
-            <h2>Sobre mim </h2>    
-        </div>
-        <div class = "text">
-            <p>Atualmente estou cursando o 3º período do curso de engenharia de computação no CEFET-MG. Tenho interesse, principalmente, nas áreas de desenvolvimento web e desenvolvimento mobile.</p>
-        </div>    
-    </section>
-    <section id = "section-contact" class = "contact">
-        <div class = "title">
-            <h2> Contato </h2>
-        </div>
-            <p>Caso queira conversar, entre em contato :)</p>
-            <p>WhatsApp: (31) 9250-4889</p>
-            <p>Email: pedroaugustoaduarte@gmail.com</p>
-    </section>
-    <footer>
-        <div class = "credits">
-            Créditos:<br>
-            <a href="https://br.freepik.com/vetores-gratis/abstrato-fluido-neon-cor-efeito-3d-fundo-de-negocios-banner-design-multiuso_23369545.htm#query=card%20background&position=49&from_view=keyword&track=ais">Imagem de Sketchepedia</a> no Freepik<br>
-            Imagem de <a href="https://br.freepik.com/vetores-gratis/degrade-de-fundo-azul_24488452.htm">Freepik</a><br>
-            Imagem de <a href="https://br.freepik.com/vetores-gratis/fundo-azul-e-dourado-de-luxo_23916540.htm">Freepik</a><br>
-            <a href="https://www.flaticon.com/br/icones-gratis/interface-de-usuario" title="interface de usuário ícones">Interface de usuário ícones criados por Secret Studio - Flaticon</a><br>
-            <a href = "https://icons8.com.br/"> icons8</a>
-        </div>
-        <div class = "madeby">
-            Desenvolvido por: Pedro Augusto A. Duarte    
-        </div>
-    </footer>
+        <section id = "section-contact" class = "contact">
+            <div class = "title">
+                <h2> Contato </h2>
+            </div>
+                <p>Caso queira conversar, entre em contato :)</p>
+                <p>WhatsApp: (31) 9250-4889</p>
+                <p>Email: pedroaugustoaduarte@gmail.com</p>
+        </section>
+        <footer>
+            <div class = "credits">
+                Créditos:<br>
+                <a href="https://br.freepik.com/vetores-gratis/abstrato-fluido-neon-cor-efeito-3d-fundo-de-negocios-banner-design-multiuso_23369545.htm#query=card%20background&position=49&from_view=keyword&track=ais">Imagem de Sketchepedia</a> no Freepik<br>
+                Imagem de <a href="https://br.freepik.com/vetores-gratis/degrade-de-fundo-azul_24488452.htm">Freepik</a><br>
+                Imagem de <a href="https://br.freepik.com/vetores-gratis/fundo-azul-e-dourado-de-luxo_23916540.htm">Freepik</a><br>
+                <a href="https://www.flaticon.com/br/icones-gratis/interface-de-usuario" title="interface de usuário ícones">Interface de usuário ícones criados por Secret Studio - Flaticon</a><br>
+                <a href = "https://icons8.com.br/"> icons8</a>
+            </div>
+            <div class = "madeby">
+                Desenvolvido por: Pedro Augusto A. Duarte    
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
