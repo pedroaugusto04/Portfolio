@@ -205,6 +205,7 @@ body {
 .contact p {
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
 }
 
 footer {
@@ -232,6 +233,7 @@ footer .madeby {
 .credits {
     font-size: 15px;
     width: 100%;
+    margin-left: 5px;
     font-family: 'Quicksand', sans-serif;
     color: white;
     display: inline-block;
