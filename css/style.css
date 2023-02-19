@@ -58,13 +58,13 @@ body {
 
 .description h1 {
     color: #e2e2e2;
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Quicksand', sans-serif;
 }
 
 .description h2 {
     color: #e2e2e2;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -127,6 +127,7 @@ body {
 
 .card{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -161,6 +162,14 @@ body {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+}
+
+.card img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
 }
 
 .aboutme {

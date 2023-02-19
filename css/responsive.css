@@ -70,6 +70,13 @@
     }
 }
 
+@media(max-width: 450px){
+
+    .description h1{
+        font-size: 55px;
+    }
+}
+
 @media(max-width: 380px){
 
     .description h1{
@@ -78,7 +85,6 @@
 
     .description h2 {   
         font-size: 20px;
-        text-align: center;
     }
     
     .icons {
