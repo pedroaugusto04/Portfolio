@@ -12,42 +12,6 @@ body {
     width: 100%;
 }
 
-#load {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-}
-  
-#loader-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #e5e5e5
-}
-  
-#loader #load-icon {
-    animation: rotating 1s infinite;
-    border: 20px solid white;
-    border-radius: 50%;
-    border-top-color: #001a6e;
-    height: 20vh;
-    width: 20vh;
-}
-  
-#loader h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-size: 5vh;
-}
-  
-@keyframes rotating {
-    to {
-        transform: rotate(1turn);
-    }
-}
-
 .menu {
     display: flex;
     width: 100%;
