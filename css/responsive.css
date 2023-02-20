@@ -88,6 +88,10 @@
     .description h1{
         font-size: 55px;
     }
+
+    .card {
+        width: 350px;
+    }
 }
 
 @media(max-width: 450px){
@@ -134,5 +138,9 @@
 
     .description h1{
         font-size: 40px;
+    }
+
+    .card {
+        width: 250px;
     }
 }
